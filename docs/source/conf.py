@@ -62,6 +62,7 @@ html_static_path = ['_static']
 
 
 sphinx_gallery_conf = {
+    'image_scrapers': ('matplotlib',),  # Use matplotlib directly (if you have plots)
     'within_subsection_order': "FileNameSortKey",
     'examples_dirs': ["../../examples"] ,  # path to your example scripts
     'gallery_dirs': ['auto_examples'],  # path to where to save gallery generated output

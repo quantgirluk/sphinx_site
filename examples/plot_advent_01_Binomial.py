@@ -16,11 +16,11 @@ from matplotlib.gridspec import GridSpec
 from scipy.stats import binom
 import numpy as np
 
-import matplotlib as mpl
-mpl.rcParams.update(mpl.rcParamsDefault)
-
-plt.style.use(
-    "https://raw.githubusercontent.com/quantgirluk/matplotlib-stylesheets/main/quant-pastel-light.mplstyle")
+# import matplotlib as mpl
+# mpl.rcParams.update(mpl.rcParamsDefault)
+#
+# plt.style.use(
+#     "https://raw.githubusercontent.com/quantgirluk/matplotlib-stylesheets/main/quant-pastel-light.mplstyle")
 
 n = 20
 p = 0.3

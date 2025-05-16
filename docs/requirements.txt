@@ -3,3 +3,4 @@ sphinx-gallery
 myst_parser
 matplotlib
 scipy
+latex

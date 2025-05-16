@@ -15,6 +15,7 @@ jobs:
         run: |
           pip install sphinx sphinx_rtd_theme myst_parser
           pip install sphinx-mathjax-offline
+          pip install sphinx_book_theme
           pip install sphinx-gallery
           pip install matplotlib scipy
           pip install latex

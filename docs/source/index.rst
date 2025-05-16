@@ -9,8 +9,11 @@ Welcome to sphinx_test's documentation!
 Hello
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :hidden:
+   :caption: Galleries and Source Code
+
+   auto_examples/index
 
 
 
@@ -20,3 +23,10 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+.. raw:: html
+
+   <div style="text-align: center;">
+       Thanks for visiting ✨
+   </div>

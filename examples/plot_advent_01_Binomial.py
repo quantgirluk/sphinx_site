@@ -23,8 +23,8 @@ n = 20
 p = 0.3
 rv = binom(n=n, p=p)
 x = np.arange(0, n + 1, 1)
-title = f"\n Binomial Distribution \n $X \sim Bin(n={n}, p={p}$)"
-
+# title = f"\n Binomial Distribution \n $X \sim Bin(n={n}, p={p}$)"
+title = "Binomial"
 fig = plt.figure(figsize=(10, 5), dpi=150)
 gs = GridSpec(1, 4, wspace=0.5)
 ax1 = fig.add_subplot(gs[:2])

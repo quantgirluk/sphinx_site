@@ -19,7 +19,7 @@ jobs:
           pip install sphinx-gallery
           pip install matplotlib scipy
           pip install latex
-          apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
+          sudo apt-get install texlive texstudio 
       - name: Sphinx build
         run: |
           sphinx-build -M html docs/source/ docs/build/

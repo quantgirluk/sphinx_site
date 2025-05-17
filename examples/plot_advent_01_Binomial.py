@@ -19,14 +19,14 @@ import numpy as np
 # import matplotlib as mpl
 # mpl.rcParams.update(mpl.rcParamsDefault)
 #
-plt.style.use(
-    "https://raw.githubusercontent.com/quantgirluk/matplotlib-stylesheets/main/quant-pastel-light.mplstyle")
+# plt.style.use(
+#     "https://raw.githubusercontent.com/quantgirluk/matplotlib-stylesheets/main/quant-pastel-light.mplstyle")
 
 n = 20
 p = 0.3
 rv = binom(n=n, p=p)
 x = np.arange(0, n + 1, 1)
-title = f"\n Binomial Distribution \n $X \sim Bin(n={n}, p={p})$"
+title = f"\n Binomial Distribution \n \[X \sim Bin(n={n}, p={p})\]"
 # title = "Binomial"
 fig = plt.figure(figsize=(10, 5), dpi=150)
 gs = GridSpec(1, 4, wspace=0.5)
